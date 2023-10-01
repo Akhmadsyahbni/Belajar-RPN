@@ -40,4 +40,4 @@ do{
     k++;
 }while( k < myArray3.length)
 console.log(myArray3);
-console.log(`total nilai adalah ${result} karena ${myArray3[0]} + ${myArray3[1]} + ${myArray3[2]} = ${result}`);
+console.log(`total nilai adalah ${result3} karena ${myArray3[0]} + ${myArray3[1]} + ${myArray3[2]} + ${myArray3[3]} = ${result3}`)
