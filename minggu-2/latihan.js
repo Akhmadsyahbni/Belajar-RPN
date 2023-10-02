@@ -31,7 +31,6 @@ ini digunakan untuk berbagai keperluan yang berhubungan dengan array, salah satu
 menggabungkan array.
 Spread operator menggunakan tanda titik tiga kali (…),
 */
-
 let angka = [1,2,3,4];
 let angka2 = [...angka,5,6,7,8];
 console.log(angka2);
