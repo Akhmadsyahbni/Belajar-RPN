@@ -69,3 +69,12 @@ do {
     }
     z++;
 } while (z <= 100);
+
+console.log('');
+
+// Nested Loop
+for(let a = 1; a <= 4; a++){
+    for(let b = 1; b <= 2; b++){
+        console.log(`Variabel a bernilai ${a}, Variabel b bernilai ${b},`)
+    }
+}
