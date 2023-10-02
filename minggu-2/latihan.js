@@ -26,8 +26,23 @@ console.log('')
 // let hewan = ["ayam","kambing","singa"];
 // console.log(hewan.length); // maka panjang array nya adalah 3
 
+/* Operator spread, atau spread operator, merupakan operator baru di ECMAScript 6. Operator
+ini digunakan untuk berbagai keperluan yang berhubungan dengan array, salah satunya untuk
+menggabungkan array.
+Spread operator menggunakan tanda titik tiga kali (…),
+*/
+
 let angka = [1,2,3,4];
-console.log(angka.length); // maka panjang array nya adalah 4
+let angka2 = [...angka,5,6,7,8];
+console.log(angka2);
+
+let angka3 = [0,...angka,...angka2,9,10,11,true,false]
+
+console.log(angka3);
+
+console.log('')
+
+// console.log(angka.length); // maka panjang array nya adalah 4
 
 // method push() berfungsi untuk memasukan data pada urutan terakhir array atau bisa dibilang memasukan data ke paling kanan
 let hewanBuas = ["Harimau","Singa","Buaya"];
