@@ -54,3 +54,10 @@ console.log(a < b || b < a); //true karena jika salah satunya saja terpenuhi mak
 console.log('! not')
 console.log(!(b > a)); //sebenernya true. karena ada operator not maka jadi false
 
+// Urutan Kekuatan operator, Operator perkalian dan pembagian lebih kuat daripada operator penambahan dan pengurangan
+// Contohnya sebagai berikut
+// Ya, perbedaan hasil antara kedua ekspresi itu disebabkan oleh urutan operasi yang berbeda. Dalam ekspresi matematika, urutan operasi dalam tanda kurung memiliki prioritas tertinggi. Jika tidak ada tanda kurung, 
+// maka urutan operasi yang berlaku adalah seperti yang telah dijelaskan dalam aturan PEMDAS
+let foo = (4 + 6) / (5 - 3) * 2 + 3;
+let foo2 = 4 + 6 / 5 - 3 * 2 + 3;
+console.log(foo);
