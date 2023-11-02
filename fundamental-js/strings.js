@@ -10,3 +10,9 @@ let greet = "Helo good morning";
 console.log(typeof(greet));
 
 let question =  '"I think it\'s awesome!" he answered confidently';
+
+/* string pada JavaScript juga mendukung string interpolation. Sederhananya, 
+kita bisa memasukkan variabel ke dalam sebuah string template. */
+
+const myName = "Akhmad Syahbani";
+console.log(`Nama Saya adalah ${myName}`);
