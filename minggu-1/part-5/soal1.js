@@ -18,26 +18,42 @@
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
 
+console.log('game Proxytia mulai');
 
 let nama = "", peran = "";
+if(nama == ""){
+    console.log("nama wajib di isi");
+}else{
+    console.log(`Halo ${nama}`)
+}
 
+if(peran == ""){
+    console.log("Pilih Peranmu untuk memulai game")
+}else if(peran == Ksatria){
+    console.log(`halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`)
+}else if(peran == Ksatria){
+    console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka!`)
+}else if(peran == Penyihir){
+    console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`)
+}else{
+    console.log("Kamu jadi bot aja ya karena otak kamu lemot");
+}
 //code disini gunakan console.log untuk outputnya
 
-// console.log('game Proxytia mulai');
-if(nama == "leomord"){
- console.log(`halo ${nama}`)
-}else{
-    console.log("nama wajib diisi")
-}
+// if(nama == "leomord"){
+//  console.log(`halo ${nama}`)
+// }else{
+//     console.log("nama wajib diisi")
+// }
 
-if(peran == "ksatria"){
-    console.log(`halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`);
-}else if (peran == ""){
-    console.log("Pilih Peranmu untuk memulai game");
-}else if (peran == "Tabib"){
-    console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
-}else if (peran == "Penyihir"){
-    console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
-}else {
-    console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
-}
+// if(peran == "ksatria"){
+//     console.log(`halo Ksatria ${nama} , kamu dapat menyerang dengan senjatamu!`);
+// }else if (peran == ""){
+//     console.log("Pilih Peranmu untuk memulai game");
+// }else if (peran == "Tabib"){
+//     console.log(`halo Tabib ${nama} , kamu akan membantu temanmu yang terluka`);
+// }else if (peran == "Penyihir"){
+//     console.log(`halo Penyihir ${nama} , ciptakan keajaiban yang membantu kemenanganmu!`);
+// }else {
+//     console.log("tapi kayaknya kamu jadi bot aja ya, peran yang kamu pilih ga ada");
+// }
