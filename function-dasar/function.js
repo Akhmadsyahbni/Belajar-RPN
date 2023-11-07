@@ -40,3 +40,40 @@ function perkalian (a,b){
 let result = perkalian(20,5);
 
 console.log (result)
+
+console.log('')
+
+// menambah pengertian function 
+
+function helloWorld(){
+    return 'Hello World'; // return ini mengembalikan nilai/mempunyai nlai 'hello world'
+}
+console.log(helloWorld());
+
+function test(){
+    console.log('test'); // return mempunyai nilai kepada function, bila tidak memberikan return di function 
+    // maka function tersebut memiliki data undifined
+}
+console.log(test());
+
+console.log('');
+
+function tambahAngka(angka1, angka2,angka3){ // disini bebeas sesuai keinginan panjang parameternya
+    return (angka1 + angka2 ) * angka3;
+}
+console.log(tambahAngka(3,2,3)); // dan di sini adalah argunen di sesuaikan dengan panjangnya parametes
+
+console.log('')
+
+function balikKata(kata){
+    let balikKata = "";
+    for (let i = kata.length; i >= 0; i--){
+        balikKata += kata[i];
+    }
+    return balikKata;
+}
+
+console.log(balikKata("Gajah"));
+console.log(balikKata("Kucing"));
+console.log(balikKata("Macan"));
+console.log(balikKata("Jerapah"));
